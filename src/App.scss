@@ -1,3 +1,19 @@
-.app {
+body {
+    $primary: #fefefd;
+    $secondary: #15151b;
+    $primbuttn: #fefe00;
+    $secbuttn: #29282d;
+    $accent: #fdfe00;
+    color: #{$primary};
+    background-color: #{$secondary};
     box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.app{
+
 }
