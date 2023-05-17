@@ -10,6 +10,7 @@
     align-items: center;
     width: 100%;
     padding: 20px 0;
+    max-width: 1448px;
 
     .nav-logo{
         display: flex;
@@ -22,7 +23,7 @@
 
     .nav-menu{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         gap: 5em;
         flex: 1;
         font-size: $p;
@@ -34,12 +35,17 @@
         display: flex;
         align-items: center;
         gap: 1em;
+        cursor: pointer;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .nav{
         align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2em;
+        
         .nav-logo{
             gap: 1em 0em;
         }
