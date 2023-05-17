@@ -1,14 +1,14 @@
-import React, {useState} from 'react'
+import React from 'react'
 import './App.scss'
+import Nav from './components/Nav'
+import Hero from './components/Hero'
 
 function App() {
 
   return (
 <div className="app">
-  <div className="nav">Hello, world</div>
-  <div className="hero">Hello, world</div>
-  <div className="main">Hello, world</div>
-  <div className="footer">Hello, world</div>
+    <Nav />
+    <Hero />
 </div>
   )
 }

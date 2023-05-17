@@ -1,0 +1,48 @@
+.hero{
+    $h1: 48px;
+	$h2: 32px;
+	$subtitle: 24px;
+	$p: 18px;
+	$sub: 16px;
+    display: flex;
+    gap: 3em;
+
+    .hero-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2em;
+        flex: 1.5;
+        max-width: 850px;
+
+        h1{
+            font-size: $h1;
+        }
+
+        h2{
+            font-size: $h2;
+            color: #fefe00;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
+
+    .hero-img{
+        display: flex;
+        flex: 1;
+    }
+}
+
+img{
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+	
+}

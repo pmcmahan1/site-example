@@ -1,0 +1,48 @@
+.nav{
+    $h1: 48px;
+	$h2: 32px;
+	$subtitle: 24px;
+	$p: 18px;
+	$sub: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+
+    .nav-logo{
+        display: flex;
+        justify-content: flex-start;
+        gap: 5em;
+        flex: 1;
+        font-size: $subtitle;
+    }
+
+    .nav-menu{
+        display: flex;
+        justify-content: center;
+        gap: 5em;
+        flex: 1;
+        font-size: $p;
+    }
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .nav{
+        align-items: center;
+        .nav-logo{
+            gap: 1em 0em;
+        }
+
+        .nav-menu{
+            gap: 1em;
+        }
+
+    }
+	
+}

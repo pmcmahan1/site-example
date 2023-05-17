@@ -1,19 +1,22 @@
-body {
-    $primary: #fefefd;
-    $secondary: #15151b;
-    $primbuttn: #fefe00;
-    $secbuttn: #29282d;
-    $accent: #fdfe00;
-    color: #{$primary};
-    background-color: #{$secondary};
-    box-sizing: border-box;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
 
 .app{
-
+        $primary: #fefefd;
+        $secondary: #15151b;
+        $primbuttn: #fefe00;
+        $secbuttn: #29282d;
+        $accent: #fdfe00;
+        $h1: 48px;
+        $h2: 32px;
+        $subtitle: 24px;
+        $p: 18px;
+        $sub: 16px;
+        color: #{$primary};
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        margin: 0 15%;
+        gap: 4em;
+    
 }
