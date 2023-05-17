@@ -35,9 +35,23 @@
         gap: 3em;
     }
 
+    .body-container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+
+    }
+
     .body-img2{
         width: 500px;
         height: 600px;
+        flex: 1;
+    }
+
+    .body-img3{
+        width: 900px;
+        height: 400px;
         flex: 1;
     }
 
@@ -61,11 +75,13 @@
     .body-text{
         font-size: $subtitle;
         text-align: justify;
+
     }
 
     .body-title{
         display: flex;
         font-size: $h2;
+        font-weight: 600;
         color: #fefe00;
     }
 
@@ -81,6 +97,11 @@
         }
 
     }
+}
+
+.centered{
+    text-align: center !important;
+    max-width: 1000px;
 }
 
 @media screen and (max-width: 1200px) {

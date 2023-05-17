@@ -45,7 +45,7 @@ const Body = () => {
           />
           <div className="body-text-container">
             <h1>Body Header</h1>
-            <h2>Body Subtitle</h2>
+            <h2>Body Subheader</h2>
             <div className="body-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
               provident ab est velit cumque deleniti nostrum aliquam itaque
@@ -64,6 +64,20 @@ const Body = () => {
       </div>
       <div className="body-item">
         <div className="body-title">Body Section Header</div>
+        <div className="body-container2">
+          <h1>Body Header</h1>
+          <div className="body-text centered">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
+            optio laborum suscipit. Molestias accusamus voluptatum, numquam
+            quia, dolor blanditiis possimus debitis unde iste laborum facilis
+            nisi nesciunt quae voluptatibus molestiae.
+          </div>
+          <img
+            src="https://dummyimage.com/900x400/29282d/ffffff.jpg&text=Your+img+here."
+            alt=""
+            className="body-img3"
+          />
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 10px;
+
+    .icon{
+        cursor: pointer;
+    }
+}
+
+a {
+    all: unset;
+}
