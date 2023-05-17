@@ -1,12 +1,13 @@
 import React from 'react'
 import './Nav.scss'
+import DiamondIcon from '@mui/icons-material/Diamond';
 
 const Nav = () => {
   return (
     <div className='nav'>
         <div className="nav-logo">
-            <img src="" alt="" />
             <a href="/">
+            <DiamondIcon />
                 <h2>Company Name</h2>
             </a>        
         </div>
